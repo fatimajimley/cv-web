@@ -6,7 +6,7 @@ const About = () => {
         <>  
             <div className="about">
                 <div className="headerTitle">
-                    <Title text="ACERCA DE" borderColor="#6474FC" color="#6474FC" level={2} aling="flex-end"/>
+                    <Title text="ACERCA DE" borderColor="#6474FC" color="#6474FC" aling="flex-end"/>
                 </div>
                 <div className="aboutme">
                     <ContainerInfo text={"Desarrolladora web full-stack con enfoque en JavaScript/Node.js, manejo de MongoDB y creación de interfaces. Capacidad para resolver problemas complejos, aprender nuevas tecnologías y optimizar procesos de desarrollo."} colorText={"#fff"} colorBorder={"#6474FC"}/>

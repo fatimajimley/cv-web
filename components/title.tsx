@@ -1,14 +1,12 @@
-const Title = ({ text, color, level,borderColor,aling }) => {
-    const Tag = `h${level}`;
+const Title = ({ text, color,borderColor,aling }) => {
     return(
         <>  
-        
-            <Tag className="textBorder">
+            <h2 className="textBorder">
                 {text}
-            </Tag>
-            <Tag className="principalText">
+            </h2>
+            <h2 className="principalText">
                 {text}
-            </Tag>
+            </h2>
             
             <style jsx>{`
                 .textBorder{

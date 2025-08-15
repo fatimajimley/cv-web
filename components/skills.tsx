@@ -7,7 +7,7 @@ const Skills = () =>{
         <>
             <div className="skills">
                 <div className="headerTitle">
-                    <Title text="SKILLS" borderColor="#6474FC" color="#FFF" level={2} aling="flex-end"/>
+                    <Title text="SKILLS" borderColor="#6474FC" color="#FFF" aling="flex-end"/>
                 </div>
                 {skills.map(skillCategory => (
                     <>
