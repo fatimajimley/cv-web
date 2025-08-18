@@ -10,7 +10,7 @@ const About = () => {
                 </div>
                 <div className="aboutme">
                     <ContainerInfo text={"Desarrolladora web full-stack con enfoque en JavaScript/Node.js, manejo de MongoDB y creación de interfaces. Capacidad para resolver problemas complejos, aprender nuevas tecnologías y optimizar procesos de desarrollo."} colorText={"#fff"} colorBorder={"#6474FC"}/>
-                    <ContainerInfo text={"Responsable y apasionada en todo lo que hago aprecio enfrentar nuevos desafíos que me ayudan a seguir creciendo tanto profesional como personalmente, siempre con la disposición de a aprender y adaptarme a nuevas herramientas y desafíos."} colorText={"#fff"} colorBorder={"#6474FC"}/>
+                    <ContainerInfo text={"Responsable y apasionada en todo lo que hago aprecio enfrentar nuevos desafíos que me ayudan a seguir creciendo tanto profesional como personalmente."} colorText={"#fff"} colorBorder={"#6474FC"}/>
                     <ContainerInfo text={"Mi habilidad para trabajar en equipo, intercambiar ideas y aprender de la experiencia de todos es una de mis grandes fortalezas."} colorText={"#fff"} colorBorder={"#6474FC"}/>
                 </div>
             </div>
