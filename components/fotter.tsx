@@ -1,4 +1,4 @@
-import DownloadCV from "./DownloadCV";
+import DownloadCV from "./downloadCV";
 
 const Footer = () => {
     return(
