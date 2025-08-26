@@ -5,16 +5,16 @@ import Cards from "./cards";
 const Skills = () =>{
     return(
         <>
-            <div className="skills">
+            <div className="skills" id="skills">
                 <div className="headerTitle">
                     <Title text="SKILLS" borderColor="#6474FC" color="#FFF" aling="flex-end"/>
                 </div>
                 {skills.map(skillCategory => (
                     <>
-                        <Subtitle text={skillCategory.subtitle}/>
+                        <Subtitle text={skillCategory.subtitle} colorText={'#fff'} background={"#6474FC"} paddingLeft={"4rem"} left={"3rem"}/>
                         <div className="infoSkills">
-                            {skillCategory.skills.map((skill)=>(
-                                <Cards title={skill.skill} icon={skill.icon} point={skill.point}/>
+                            {skillCategory.skills.map((skill, i)=>(
+                                <Cards key={i} title={skill.skill} icon={skill.icon} point={skill.point}/>
                             ))}
                         </div>
                     </>

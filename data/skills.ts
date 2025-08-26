@@ -29,7 +29,7 @@ export const skills = [
             point: 5
         },
         {
-            icon:"./icons/css3.png",
+            icon:"./icons/css.png",
             skill: "CSS",
             point: 4
         },
@@ -57,11 +57,6 @@ export const skills = [
             icon:"./icons/next.png",
             skill: "Next.js",
             point: 3
-        },
-        {
-            icon:"./icons/tailwindcss.png",
-            skill: "Tailwind CSS",
-            point: 4
         },
         {
             icon:"./icons/Bootstrap.png",

@@ -1,14 +1,15 @@
 import Avatar from "./avatar";
+import Navbar from "./navbar";
 import ParticleBackground from "./ParticleBackground";
 
 const Home = () => {
   return (
     <>
-      <div className="home">
+      <div className="home" id="home">
         <div className="particles">
           <ParticleBackground />
         </div>
-        <Avatar />
+        <Navbar/>
         <div className="title">
           <h1>NALLELY</h1>
           <h1>JIMÉNEZ</h1>

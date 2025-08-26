@@ -3,7 +3,7 @@ import DownloadCV from "./downloadCV";
 const Footer = () => {
     return(
         <>
-            <div className="footer">
+            <div className="footer" id="contact">
                 <h5>¡Trabajemos juntos!</h5>
                 <div className="contact">
                     <div className="email">

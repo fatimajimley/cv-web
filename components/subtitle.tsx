@@ -1,4 +1,4 @@
-const Subtitle = ({text}) => {
+const Subtitle = ({text, colorText, background,paddingLeft, left}) => {
     return(
         <>
             <div className="subtitle">
@@ -7,20 +7,20 @@ const Subtitle = ({text}) => {
             </div>
             <style jsx>{`
                 .subtitle{
-                    color: #fff;
+                    color: ${colorText};
                     font-weight: bold;
                     font-size: 25px;
-                    padding-left: 4rem;
+                    padding-left: ${paddingLeft};
                 }
                 hr{
-                    background: #6474FC;
+                    background: ${background};
                     padding: 0;
                     height: 8px;
                     margin: 0;
                     width: 2rem;
-                    border: #6474FC;
+                    border: ${background};
                     position: absolute;
-                    left: 3rem;
+                    left: ${left};
                 }
             `}</style>
         </>
